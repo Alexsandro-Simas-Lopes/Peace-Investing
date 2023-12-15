@@ -13,83 +13,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.16/css/dataTables.bootstrap4.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
-    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.16/js/dataTables.bootstrap4.js"></script>
     <!-- LINK STYLE CSS -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/homePage.css">
 </head>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="#">Peace Investing</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="#">
-            <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Home</span>
-          </a>
-        </li>
-      </ul>
-      <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"></i>
-          </a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <a class="navbar-brand" href="#">Peace Investing</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
         
-        <li class="nav-item">
-          <form class="form-inline my-2 my-lg-0 mr-lg-2">
-            <div class="input-group">
-              <input class="form-control" type="text" placeholder="Search for...">
-              <span class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-          </form>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/welcome.html">
-            <i class="fa fa-fw fa-sign-out"></i>Login</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/welcome.html">
+              <i class="fa fa-fw fa-sign-out"></i>Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <ul class='slider'>
+      <li class='item' style="background-image: url('/img/feliz.png')">
+        <div class='content text-dark'>
+          <h2 class='title'>"Seus Investimentos"</h2>
+          <p class='description'> Aqui você controla seus investimentos, tem acesso ao total investido e redireciona seus lucros para onde quiser, além de ficar por dentro de informações e notícias sobre seus investimentos. Tudo bem na palma da sua mâo! </p>
+        </div>
+      </li>
+      <li class='item' style="background-image: url('/img/img.webp')">
+        <div class='content'>
+          <h2 class='title'>"Tenha mais tempo livre"</h2>
+          <p class='description'> Com o PeaceInvesting você investe no seu futuro e ainda fica com tempo de sobra para investir em si mesmo no presente, como aproveitar momentos únicos.  </p>
+        </div>
+      </li>
+      <li class='item' style="background-image: url('/img/image.png')">
+        <div class='content text-dark'>
+          <h2 class='title'>"Faça Planejamentos"</h2>
+          <p class='description'><b> Pense e Invista da forma que desejar para chegar onde deseja chegar, da forma que você pensa em chegar.</b></p>
+        </div>
+      </li>
+      <li class='item' style="background-image: url('/img/images.jpg')">
+        <div class='content'>
+          <h2 class='title'>Sinta-se em Paz"</h2>
+          <p class='description'>
+            Com o PeaceInvesting você encontra a segurança que precisa para investir sem medo!
+          </p>
+        </div>
+      </li>
+    </ul>
+    <nav class='nav'>
+      <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+      <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+    </nav>
+  </main>
   
-  <div class="content-wrapper">
-    <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="#">Home</a>
-        </li>
-      </ol>
-      
-      </div>
-    </div>
-  </div>
-  <footer class="sticky-footer">
-    <div class="container">
-      <div class="text-center">
-        <small>Copyright © Your Website 2018</small>
-      </div>
-    </div>
-  </footer>
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fa fa-angle-up"></i>
-  </a>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-<script type="text/Javascript" src="/js/main.js"></script>
+<script type="text/Javascript" src="/js/homePage.js"></script>
 </html>
